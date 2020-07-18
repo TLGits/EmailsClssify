@@ -6,6 +6,7 @@ tf-idf方法文本特征提取，通过SVM分类
 Document Classification (Email Classfy)
 
 文件：
+
 install_database.py：安装分词处理工具脚本；
 
 Emails_classify_Proprocessing.py：数据预处理脚本；
@@ -76,6 +77,7 @@ report_rbf_stem.txt：词干提取特征+rbf核SVM分类输出文件
 	| -m  | --method |  rbf  |  method 选择核函数，(linear or rbf or poly or sigmoid)
 	
 	| -f  | --file |  stemming  |  file 选择采用数据集类型(stemming or lemmatization)
+       
        例：python Emails_classify_svm.py -m linear ：采用线性核函数；
        
     5）SMO算法：python Emails_classify_SMO.py 可以看到相应的a，b的输出
